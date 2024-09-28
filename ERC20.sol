@@ -29,7 +29,7 @@ abstract contract ERC20 is IERC20, Context, IERC20Errors {
     }
 
     function decimals() public view virtual returns (uint8) {
-        return 18;
+        return 9;
     }
 
     function totalSupply() public view virtual returns (uint256) {
